@@ -1,0 +1,63 @@
+#contenedorPrincipal {
+    height: 200px;
+    width: 160px;
+    margin: auto;
+    background: gray;
+}
+
+#tablero {
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grilla {
+    border: solid 1px;
+    height: 15px;
+    width: 15px;
+    box-sizing: border-box;
+    font-size: 10px;
+    text-align: center;
+}
+
+#juego {
+    height: 30px;
+    width: 150px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+#imagen {
+    height: 15px;
+    width: 15px;
+    margin: auto;
+}
+
+.contador {
+    height: 12px;
+    width: 40px;
+    border: solid 0.5px;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    margin: 0px;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    height: 20px;
+    width: 20px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #5502ff, #7e02ff);
+}
